@@ -15,6 +15,7 @@
 		DA7974AE2B2319760020C3E5 /* api_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7974AD2B2319760020C3E5 /* api_testUITests.swift */; };
 		DA7974B02B2319760020C3E5 /* api_testUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7974AF2B2319760020C3E5 /* api_testUITestsLaunchTests.swift */; };
 		DA7974BD2B232F6C0020C3E5 /* note.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7974BC2B232F6C0020C3E5 /* note.swift */; };
+		DAAAD8012B25BFF100A01491 /* timeline_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAAD8002B25BFF100A01491 /* timeline_Test.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DA7974AD2B2319760020C3E5 /* api_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api_testUITests.swift; sourceTree = "<group>"; };
 		DA7974AF2B2319760020C3E5 /* api_testUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = api_testUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DA7974BC2B232F6C0020C3E5 /* note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = note.swift; sourceTree = "<group>"; };
+		DAAAD8002B25BFF100A01491 /* timeline_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timeline_Test.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				DA7974BC2B232F6C0020C3E5 /* note.swift */,
+				DAAAD8002B25BFF100A01491 /* timeline_Test.swift */,
 				DA7974932B2319750020C3E5 /* ContentView.swift */,
 				DA7974952B2319760020C3E5 /* Assets.xcassets */,
 				DA7974972B2319760020C3E5 /* api_test.entitlements */,
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAAAD8012B25BFF100A01491 /* timeline_Test.swift in Sources */,
 				DA7974942B2319750020C3E5 /* ContentView.swift in Sources */,
 				DA7974BD2B232F6C0020C3E5 /* note.swift in Sources */,
 				DA7974922B2319750020C3E5 /* api_testApp.swift in Sources */,

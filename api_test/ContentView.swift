@@ -33,6 +33,19 @@ struct ContentView: View {
                         .padding(5)
                         
                     Spacer()
+                    
+                    Button(action: {
+                                        print("follow request")
+                                    }) {
+                                        Text("フォローする")
+                                            .font(.subheadline)
+                                            .bold()
+                                            .frame(width: 160, height: 35)
+                                            .foregroundColor(Color.white)
+                                            .background(Color.black)
+                                            .cornerRadius(25)
+                                        
+                                    }.padding(.trailing , 20)
                 }
                 
                 VStack{
@@ -45,7 +58,7 @@ struct ContentView: View {
                     
                     HStack{
                         
-                        Text("@hisameroid @voskey.icalo.net")
+                        Text("@hisameroid@voskey.icalo.net")
                             .foregroundColor(.gray)
                             .font(.subheadline)
                         Spacer()
@@ -77,6 +90,7 @@ struct ContentView: View {
                     HStack{
                         Text("\(Image(systemName: "link"))https://www.pixiv.net/users/94934368")
                             .font(.footnote)
+                        
                         Spacer()
                     }
                     
