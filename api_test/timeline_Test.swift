@@ -8,7 +8,18 @@ import SwiftUI
 
 struct TimeLine: View {
     var body: some View {
-        Note()
+        HStack{
+            Spacer()
+            Text("おすすめ")
+                .font(.title2)
+                .bold()
+            Spacer()
+            Text("フォロー中")
+                .font(.title2)
+                .bold()
+            Spacer()
+        }
+        Spacer()
         Button(action: {
             Timeline_API()
         }

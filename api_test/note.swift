@@ -56,7 +56,7 @@ struct Note: View {
             }
         }
         .padding(.vertical,10)
-        .border(Color.gray)
+        //.border(Color.gray)
     }
 }
 

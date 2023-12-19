@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Profile: View {
     var body: some View {
         
         ScrollView{
@@ -135,7 +135,7 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    Profile()
 }
 
 
